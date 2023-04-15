@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300&family=Roboto+Mono:wght@200&family=Roboto:wght@300&family=Shrikhand&family=square+Peg&display=swap');
+
+.banner {
+    position: relative;
+}
+
+.banner_img {
+    width: 92%;
+    border-radius: 25px;
+    position: absolute;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: -70px;
+    z-index: -1;
+    object-fit: cover;
+    mix-blend-mode: darken;
+    filter: brightness(0.60);
+}
+
+.banner_title {
+    display: flex;
+    justify-content: center;
+        color: white;
+        font-size: 48px;
+        font-weight: 500;
+    margin-top: 100px;
+    font-family: 'Monsterra', sans-serif;
+}
+
+@media  screen and (max-width: 767px) {
+    .banner_img {
+        width: 93%;
+        height: 160px;
+        margin-left: 20px;
+        margin-top: -50px;
+        border-radius: 10px;
+    }
+    
+    .banner_title {
+        font-size: 24px;
+        margin-top: 80px;
+        width: 45%;
+        margin-left: 40px;
+    }
+}

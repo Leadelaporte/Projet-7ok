@@ -1,0 +1,26 @@
+.rate {
+    display:flex;
+    justify-content: right;
+    margin-right: 50px;
+    margin-top: -15px;
+}
+
+.filled_stars {
+    max-width: 24px;
+}
+
+.nonefilled_stars {
+    max-width: 24px;
+}
+
+@media screen and (max-width: 767px) {
+.rate {
+    margin-left: 20px;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .rate {
+        margin-left: 50px;
+    }
+}
